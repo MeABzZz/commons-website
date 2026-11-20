@@ -63,3 +63,11 @@ Images taller than 8000 px are downscaled to 8000 px tall; originals stay on the
 | whitepaper_after_1279_nav.png | 10:25:36 | #32 d2807db (:8895, copy only; before CSS/font commit) |
 | whitepaper_after_390_viewport.png | 10:51:37 | #32 dc89ec0 (:8895) |
 | whitepaper_before_1279_nav.png | 10:25:26 | main 1cc3f92 (:8893) |
+| 404_after_390_viewport_final.png | 11:00:24 | #32 649925f (:8895); crop 390x636 of a 1280x800 screen grab (viewport bottom cut off) |
+| ecosystem_after_390_viewport_final.png | 10:59:25 | #32 649925f (:8895); crop 390x636 of a 1280x800 screen grab (viewport bottom cut off) |
+| governance-designer_after_390_viewport_final.png | 10:59:52 | #32 649925f (:8895); crop 390x636 of a 1280x800 screen grab (viewport bottom cut off) |
+| home_after_390_viewport_final.png | 10:59:02 | #32 649925f (:8895); crop 390x636 of a 1280x800 screen grab (viewport bottom cut off) |
+| spec_after_1279_viewport_final.png | 11:00:49 | #32 649925f (:8895); full 1280x800 screen capture; shows colour and font change |
+| whitepaper_after_390_viewport_final.png | 10:56:48 | #32 649925f (:8895); crop 390x636 of a 1280x800 screen grab (viewport bottom cut off) |
+
+Final check on 649925f at 390x844: document.scrollWidth = 390 on both reads for /whitepaper.html, /, /ecosystem.html, /governance-designer.html and /404.html.
